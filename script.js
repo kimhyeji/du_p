@@ -10,7 +10,7 @@ $(function () {
     $(".img-item").css("transition", "transform 0.4s");
   
     $(".img-item > a, .img-item > img").on("mouseenter", function () {
-      $(this).closest(".img-item").css("transform", "translateY(-150px)");
+      $(this).closest(".img-item").css("transform", "translateY(-50px)");
     });
   
     $(".img-item > a, .img-item > img").on("mouseleave", function () {
